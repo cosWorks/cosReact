@@ -50,7 +50,7 @@ File -> Settings -> Languages and Frameworks -> Javascript
 Dort bei Javascript language version  "React JSX" einstellen 
 ```
 
-## <a name="idea"></a> Anpassen der Webpack Config JS
+## <a name="configWebpoack"></a> Anpassen der Webpack Config JS
 
 Im Verzeichnis befindet sich die Datei
 ```
@@ -63,7 +63,7 @@ z.B.
 path: 'C:\\workspaces\\cosReact\\app\\htdocs', 
 ```
 
-## <a name="idea"></a> Webpack zum Starten verwenden
+## <a name="devServer"></a> Webpack zum Starten verwenden
 
 Wieder gehts in die Konsole:
 ```
