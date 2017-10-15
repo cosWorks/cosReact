@@ -1,0 +1,4 @@
+.idea
+/node_modules/
+/app/htdocs/client.bundle.js
+/npm-debug.log
