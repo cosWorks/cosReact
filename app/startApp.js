@@ -4,7 +4,6 @@ import {BrowserRouter} from 'react-router-dom';
 import {Switch, Route} from 'react-router';
 import CompFirst from './components/firstComp';
 import CompSecond from './components/secondComp';
-import App from './components/firstComp';
 
 /**
  * Startup Router - Initialisierungen für die einzelnen Componenten
@@ -15,7 +14,7 @@ import App from './components/firstComp';
 const markup = (
     <BrowserRouter>
         <Switch>
-            <Route exact path='/' component={App}/>
+            <Route exact path='/' component={CompFirst}/>
             <Route path='/CompFirst' component={CompFirst}/>
             <Route path='/CompSecond' component={CompSecond}/>
         </Switch>
