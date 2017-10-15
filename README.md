@@ -4,7 +4,7 @@
     * [Projekt auschecken](#checkout)
     * [Installation der NodePackages](#npminstall)
 
-##<a name="installation"></a> Tools
+## <a name="installation"></a> Tools
 
 Folgende Tools werden auf Deinem Rechner benötigt:
 
@@ -14,7 +14,7 @@ Folgende Tools werden auf Deinem Rechner benötigt:
 
 Alle Tools nach Standard "F" installieren
 
-##<a name="checkout"></a> Projekt auschecken
+## <a name="checkout"></a> Projekt auschecken
 Nach der Installation der Tools kann das Projekt ausgecheckt werden.
 
 Konsole öffnen und folgende Befehle absetzen:
@@ -22,7 +22,7 @@ Konsole öffnen und folgende Befehle absetzen:
 cd <lokales Verzeichnis>
 https://github.com/cosWorks/cosReact.git
 ```
-##<a name="npminstall"></a> Installationen benötigter Packages
+## <a name="npminstall"></a> Installationen benötigter Packages
  
 
 
