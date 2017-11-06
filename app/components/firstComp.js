@@ -15,6 +15,15 @@ export default class App extends React.Component {
         super();
     }
 
+    /**
+     * Beim Drücken auf den Button wird die Methode ChangePropInStore ausgeführt.
+     * Diese ändert den Wert auf "neuer Inhalt" ab
+     */
+    _changePropInStore() {
+        this.props.changePropValue("Neuer Inhalt",
+            ()=>console.log("und ich bin ein callback"));
+    }
+
 
     /**
      * Methode für das rendern des HTML Fragments der Componente
@@ -24,6 +33,8 @@ export default class App extends React.Component {
             <p>Dies ist die erste Componente</p>
             <CompSecond />
             <p><Link to={'/CompSecond'}>Link Beispiel</Link></p>
+            <p>Inhalt von ichBinEinProp: {this.props.ichBinEinProp}</p>
+            <button onClick={this._changePropInStore.bind(this)} type="button">change Store</button>
         </div>
     }
 }

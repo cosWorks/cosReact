@@ -1,4 +1,12 @@
 # cosReact
+ 
+####Welche Informationen sind in dem Beispiel vorhanden:
+
+1. Erklärung einer Komponente mit dazugehörigem Container
+2. Erklärung des Redux Stores (Datenhaushalt innerhalb einer Anwendung
+
+<hr>
+
 * Installation
     * [Benötigte Tools](#installation)
     * [Projekt auschecken](#checkout)
